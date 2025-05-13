@@ -1,0 +1,15 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-button (click)="getCurrentLocation()">Obtener coordenadas</ion-button>
+  <div *ngIf="latitude !== null && longitude !== null">
+    <p><strong>Latitud:</strong> {{ latitude }}</p>
+    <p><strong>Longitud:</strong> {{ longitude }}</p>
+  </div>
+</ion-content>
