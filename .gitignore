@@ -68,3 +68,21 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+
+# Node.js
+node_modules/
+.env
+
+# Android
+.gradle/
+.idea/
+*.iml
+build/
+
+# VSCode
+.vscode/
+
+# General
+.DS_Store
+*.log
